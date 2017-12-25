@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="storeinform.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="score.js" ></script>
+</head>
+
+<body>
+		<div id="header" class="container pt-5 mt-1">
+			<nav id="nav-header" class="navbar navbar-expand-sm fixed-top navbar-light fixednav">
+				<a class="navbar navbar-brand" href="#">Logo</a>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">族權與文化</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="product.html">商品</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">旅遊服務提供</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">遊客意願</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">節日與語言學習</a>
+					</li>
+				</ul>
+				<a class="btn btn-outline-success text-dark ml-md-auto">登入</a>
+			</nav>
+		</div>
+		<div class="container pt-3">
+		
+		
+		
+	<div class="bigphoto">
+					
+		<img src="store.3b.jpg"  style="width:100%" >
+							
+	</div>
+	<p style="float: left"><h1>吾拉魯滋藝文藝中心</h1> <br><br>
+	<h2>店家介紹</h2>
+	<p style="font-size:13px;">
+	一天心愛的山豬寵物，變成紅色的山豬出現在夢中，不舞便決定將<br>
+	紅色山豬圖畫作為符號，並收集許多和山豬有關的鄒族傳說進行創<br>
+	作，讓山豬說故事。可愛的山豬化身成許多生活物件，讓日常的空<br>
+	間時常充滿記憶與愉悅，因為她相信植物、動物與人是相互緊密依<br>
+	靠的。</p>
+	<h3>網頁網址:abc.com.tw</h3>
+	
+	<h3>地址:台東縣卑南鄉卑南路20號</h3>
+	<h3>電話:(02)3123456</h3>
+	<h3>e-mail:coco123@gmail.com</h3>
+	<br>
+	<br>
+	</p>
+	<h1 style = "margin:0 42%">產品資訊</h1>
+	<br>
+	<br>
+	
+	<div class="column">
+    <div class="card">
+      <img src="1.png" alt="Jane" style="width:100%"  >
+      <div class="container">
+        <h2>山豬馬克杯</h2>
+        <p class="title">山豬的象徵</p>
+        <p>漂亮的馬克杯</p>
+		
+        <div class="star">
+        <span>評分</span>
+        <ul>
+            <li><a href="javascript:;">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+        </ul>
+		</div>
+		<script>
+		 $(function(){
+		 
+			var score = new Score({
+				callback: function(cfg) {
+					console.log(cfg.starAmount);
+				}
+			});
+		});
+		</script>
+		
+        <!--<p><button class="button"><h4>評價:5/5</h4></button></p>-->
+      </div>
+    </div>
+	
+	
+	</div>
+	<div class="column">
+    <div class="card">
+      <img src="2.png" alt="Jane" style="width:100%"  >
+      <div class="container">
+        <h2>海裡的盤子</h2>
+        <p class="title">海</p>
+        <p>漂亮的盤子</p>
+		
+		
+		<div class="star">
+        <span>評分</span>
+        <ul>
+            <li><a href="javascript:;">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+        </ul>
+		</div>
+		
+		
+        
+       <!--<p><button class="button"><h4>評價:5/5</h4></button></p>-->
+      </div>
+    </div>
+	</div>
+	
+	<div class="column">
+    <div class="card">
+      <img src="3.png" alt="Jane" style="width:100%"  >
+      <div class="container">
+        <h2>木雕魚</h2>
+        <p class="title">溪</p>
+        <p>漂亮的木雕魚</p>
+		
+		
+		<div class="star">
+        <span>評分</span>
+        <ul list-style:none>
+            <li><a href="javascript:;">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+        </ul>
+		</div>
+		
+		
+		
+        
+        <!--<p><button class="button"><h4>評價:5/5</h4></button></p>-->
+      </div>
+    </div>
+	</div>
+</body>
+</html>

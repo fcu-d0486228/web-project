@@ -1,0 +1,87 @@
+<style>
+		html {
+		box-sizing: border-box;
+		}
+
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
+
+		.column {
+		float: left;
+		width: 33.3%;
+		margin-bottom: 16px;
+		padding: 0 8px;
+		}
+
+		@media (max-width: 650px) {
+		.column {
+			width: 100%;
+			display: block;
+		}
+		}
+
+		.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+
+		.container {
+		padding: 0 16px;
+		}
+
+		.container::after, .row::after {
+		content: "";
+		clear: both;
+		display: table;
+		}
+
+		.title {
+		color: grey;
+		}
+
+		.button {
+		border: none;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: gray;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		}
+		
+		.button:hover {
+		background-color: #555;
+		}
+				.bigphoto{
+				background-color: grey
+				
+				
+				border: 25px;
+				width: 65%;
+				position: relative;
+				margin: auto;
+				
+				float: left;
+				
+				
+				margin-bottom: 16px;
+				padding: 0 8px;
+				}
+					
+					
+				
+				.star {position:relative;width:600px;height:24px; margin:20px auto 30;}
+				.star span {float:left;height:19px;line-height:19px; margin:0 0 50px}
+				.star ul{margin:0 10px;list-style-type:none;}
+				.star li{float:left;width:24px;height:22px;text-indent:-9999px;background:url('star.png') no-repeat;cursor:pointer;list-style-type:none;}
+				.star li.on{background-position:0 -28px;list-style-type:none;}
+				.star p {background:url('icon.gif') no-repeat;padding:10px 10px 0;position:absolute;top:20px;width:159px;height:60px;z-index:100;}
+				.star p em {color: #FF6600;display: block;font-style: normal;}
+				.star strong {color:#ff6600;padding-left:10px;}
+				.hidden{display:none;}
+					
+					
+					
+</style>
