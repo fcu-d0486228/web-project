@@ -1,8 +1,11 @@
 
- .btn{
+.btn{
      width:200px;
-    }
+}
 .pic{
     height: 150px;
     width: 180px;
+}
+.title{
+    background-color: #6EC26A;
 }
