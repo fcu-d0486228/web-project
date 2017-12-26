@@ -1,0 +1,13 @@
+svg { height: 90vh; background-color: #3cb500; }
+
+path { stroke: #fff; fill: transparent; -webkit-transition: 0.4s; -o-transition: 0.4s; transition: 0.4s; cursor: pointer; }
+
+path:hover { fill: #fff; -webkit-transform: translate(-5px, -5px); -ms-transform: translate(-5px, -5px); transform: translate(-5px, -5px); }
+
+.box h4, .box p { margin: 0; }
+
+.box h4 { font-size: 34px; }
+
+.box p { font-size: 20px; }
+
+/*# sourceMappingURL=taiwan_svg.css.map */
