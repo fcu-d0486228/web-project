@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		title CTGO-login
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover")
+		link(rel="stylesheet", href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css")
+		script(src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js")
+		script(src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js")
+		script(src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js")
+		link(rel="stylesheet", href="../common/resources/style/header.css")
+		link(rel="stylesheet", href="../common/resources/style/login.css")
+	body
+		// header(nav) script
+		script(src="../common/resources/scripts/header.js")
+		br
+		br
+		br
+		div(class="container col-md-8 col-md-offset-2")
+			.login-input
+				h4 帳號
+				input
+				h4 密碼
+				input
+			.login-extends
+				a(id="login-register", href="#") 申請新帳號
+				a(id="login-forgetton", href="#") 忘記密碼
