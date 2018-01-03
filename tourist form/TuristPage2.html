@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
@@ -34,6 +35,13 @@
                 display: block;
             }
     </style>
+    <script>
+        $(function(){
+            $("#send").click(function(){
+                alert("確認送出");
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="header" class="container pt-5 mt-1">
@@ -124,7 +132,7 @@
         <input type="radio" name="accommodation" value="yes" checked> 是&emsp;
         <input type="radio" name="accommodation" value="no"> 否&emsp;<br>
 
-        <input type="submit" value="送出">
+        <input id="send" type="submit" value="送出" class="btn btn-success btn-large">
     </form>
   
 </body>
