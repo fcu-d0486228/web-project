@@ -1,5 +1,5 @@
 header = '<div id="header">\
-			<nav class="navbar navbar-expand-sm fixed-top navbar-light fixednav fixed-top" id="nav-header">\
+			<nav class="navbar navbar-expand-sm fixed-top navbar-light fixednav" id="nav-header">\
 				<a class="navbar navbar-brand" href="../common/index.html">CTGO</a>\
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">\
 				<span class="navbar-toggler-icon"></span>\
@@ -22,7 +22,7 @@ header = '<div id="header">\
 						<a class="nav-link" href="../festival&language/節日與語言學習.html">節日與語言學習</a>\
 					</li>\
 				</ul>\
-				<a class="btn btn-outline-success text-dark ml-md-auto" href="../login/login.html">登入</a>\
+				<a class="btn btn-outline-success navbar-btn text-dark ml-md-auto" href="../login/login.html">登入</a>\
 				</div>\
 			</nav>\
 		</div>';
