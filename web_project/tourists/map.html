@@ -1,110 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-    <script src="nav.js"></script>
-    <link rel="stylesheet" type="text/css" href="nav.css">
-    <link rel="stylesheet" href="../common/resources/style/header.css">
- 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+        <script src="nav.js"></script>
+        <!-- <link rel="stylesheet" type="text/css" href="nav.css"> -->
+        <link rel="stylesheet" href="../common/resources/style/header.css">
+        <title>遊客地圖</title>
 
+        <style>
+            #map {
+                width: 70vw;
+                height: 70vh;
+            }
+            #selection{
+                font-size: 25px;
+            }
+        </style>
 
+    </head>
+    <body>
+        <script src="../common/resources/scripts/header.js"></script>
 
-    <title>遊客地圖</title>
-    <style>
-        /* #btn1{
-          width: 180px;
-          height: 40px;
-          background-color: rgba(22, 155, 213, 1);
-          border-radius: 5px;
-          color: white;
-          text-align: center;
-          line-height: 40px;  
-          border-width: 0px;
-          position: absolute;
-          right: 0px;
-          top: 60px;
-          display: block;
-        } */
-        #btn1{
-          width: 180px;
-          height: 40px;
-          position: absolute;
-          right: 0px;
-          top: 60px;
-          display: block;
-        }
+        
+        <div class="container-fluid" style="margin-top:80px">
 
-        #map {
-          width: 70%;
-          float: left;
-        }
-        #selectionCss {
-          width: 30%;
-          float: left;
-        }
-        select{
-          width: 100px;
-          height: 50px;
-          font-size: 30px;
-        }
-    </style>
-  </head>
-  <body>
-      <script src="../common/resources/scripts/header.js"></script>
+            <!-- <div class="clearfix">
+                    <span class="float-left"><h2>大家想去哪?</h2></span>
+                    <span class="float-right"><a href="TuristPage2.html"><div class="btn btn-success">我也想去....</div></a></span>
+                    <select class="float-right">
+                        <option value=0>族群</option>
+                        <option value=1>縣市</option> 
+                    </select>
+            </div> -->
 
-
-      <br><br><br>
-
-      <h1>大家想去哪?</h1>
-      <a href="TuristPage2.html"><div id="btn1" class="col-2.4 btn btn-success title">我也想去....</div></a>
-
-      <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871469.0909272844!2d120.4191659278949!3d23.63253937569146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ed5cb2b61c3a5%3A0xcf20ddb042be7fa0!2z6Ie654Gj!5e0!3m2!1szh-TW!2stw!4v1514050186943" width="1000" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div id="selectionCss">
-        <select id="selection">
-          <option value=0>族群</option>
-          <option value=1>縣市</option> 
-        </select>
-      </div>
-
-<!-- <script>
-      function initMap() {
-        var fcu = {lat:24.178693,lng:120.646740};
-        var map = new 
-          google.maps.Map(document.getElementById('map'), {
-            zoom: 16,
-            center: fcu,
-            rotateControl: true,
-            zoomControl: true,
-            mapTypeId:'hybrid'
-          });
-        var marker = new google.maps.Marker({
-          position: fcu,
-          map: map,
-          icon: "./imgs/images.jpg"
-        });
-        marker.addListener('click',function(){
-            map.setZoom(18);
-            map.setCenter(marker.getPosition());
-            infowindow.open(map, marker);
-        });
-        var contentString = '<div>' +
-                '<h3>Feng Chia University</h3>' +
-                '<img src="http://www.fcu.edu.tw/wSite/publicfile/Attachment/f1249733368114.jpg" width="50px" height="50px" >' +
-                '</div>';
-                var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-                });
-      }  
-</script>
-    <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3pNgXaReQ1qNg9vB6dV4OP-d0Ew8saW4&callback=initMap">
-    </script> -->
-  </body>
+            <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-6 col-6"><h2>大家想去哪?</h2></div>
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-2">
+                            <select id="selection">
+                                <option value=0>族群</option>
+                                <option value=1>縣市</option> 
+                            </select>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-4"><a href="TuristPage2.html"><div class="btn btn-success">我也想去....</div></a></div>
+            </div>
+            
+            <iframe id="map" class="mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871469.0909272844!2d120.4191659278949!3d23.63253937569146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ed5cb2b61c3a5%3A0xcf20ddb042be7fa0!2z6Ie654Gj!5e0!3m2!1szh-TW!2stw!4v1514050186943" width="1000" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+        </div>
+    </body>
 </html>
