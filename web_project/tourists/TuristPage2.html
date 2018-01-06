@@ -11,6 +11,14 @@
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link rel="stylesheet" href="../common/resources/style/header.css">
     <title>遊客表單?</title>
+    <script>
+        $(function(){
+            $("#send").click(function(){
+                alert("確認送出");
+            });
+        });
+    </script>
+
     <style>
             /* #btn1{
                 width: 180px;
@@ -39,72 +47,74 @@
 <body>
     <script src="../common/resources/scripts/header.js"></script>
 
-
-    <br><br><br><br>
-    <a href="map.html"><div id="btn1" class="col-2.4 btn btn-success title">回上一頁</div></a>
-    <form id="turistForm" action="" align="center" style="margin-top: 50px; font-size:30px;  line-height: 35px;" >
-        <input type="tel" placeholder="手機"><br><br>
-        <input type="email" placeholder="信箱"><br><br>
-        縣市:
-        <select id="selectCountry">
-            <option value="桃園縣 ">桃園縣 </option>
-            <option value="新竹縣 ">新竹縣 </option>
-            <option value="苗栗縣 ">苗栗縣 </option>
-            <option value="彰化縣 ">彰化縣 </option>
-            <option value="南投縣 ">南投縣 </option>
-            <option value="雲林縣 ">雲林縣 </option>
-            <option value="嘉義縣 ">嘉義縣 </option>
-            <option value="屏東縣 ">屏東縣 </option>
-            <option value="宜蘭縣 ">宜蘭縣 </option>
-            <option value="花蓮縣 ">花蓮縣 </option>
-            <option value="台東縣 ">台東縣 </option>
-            <option value="澎湖縣 ">澎湖縣 </option>
-            <option value="金門縣 ">金門縣 </option>
-            <option value="連江縣 ">連江縣 </option>
-            <option value="基隆市 ">基隆市 </option>
-            <option value="新竹市 ">新竹市 </option>
-            <option value="嘉義市 ">嘉義市 </option>
-            <option value="台北市 ">台北市 </option>
-            <option value="新北市 ">新北市 </option>
-            <option value="台中市 ">台中市 </option>
-            <option value="台南市 ">台南市 </option>
-            <option value="高雄市 ">高雄市 </option>
-        </select>
-        <br><br>
-        族群:
-        <select id="selectAborigines">
-            <option value="阿美族">阿美族</option>
-            <option value="泰雅族">泰雅族</option>
-            <option value="排灣族">排灣族</option>
-            <option value="布農族">布農族</option>
-            <option value="卑南族">卑南族</option>
-            <option value="魯凱族">魯凱族</option>
-            <option value="鄒族">鄒族</option>
-            <option value="賽夏族">賽夏族</option>
-            <option value="雅美族(達悟族)">雅美族(達悟族)</option>
-            <option value="邵族">邵族</option>
-            <option value="噶瑪蘭族">噶瑪蘭族</option>
-            <option value="太魯閣族">太魯閣族</option>
-            <option value="撒奇萊雅族">撒奇萊雅族</option>
-            <option value="賽德克族">賽德克族</option>
-            <option value="拉阿魯哇族">拉阿魯哇族</option>
-            <option value="卡那卡那富族">卡那卡那富族</option>
-        </select>
-        <br><br>
-        想了解的資訊:<br>
-        <input type="checkbox" name="information" value="history">歷史&emsp; 
-        <input type="checkbox" name="information" value="food">食物&emsp;
-        <input type="checkbox" name="information" value="clothes">  服飾&emsp;  
-        <input type="checkbox" name="information" value="ceremony">  祭典&emsp;<br>
-        是否需要導遊:
-        <input type="radio" name="guide" value="yes" checked> 是&emsp;
-        <input type="radio" name="guide" value="no"> 否&emsp;<br>
-        是否需要住宿:
-        <input type="radio" name="accommodation" value="yes" checked> 是&emsp;
-        <input type="radio" name="accommodation" value="no"> 否&emsp;<br>
-
-        <input type="submit" value="送出">
-    </form>
+    <div class="container-fluid" style="margin-top:80px">
+        <a href="map.html"><div id="btn1" class="col-2.4 btn btn-success title">回上一頁</div></a>
+        <br>
+        <form id="turistForm" action="" align="center" style="margin-top: 50px; font-size:30px;  line-height: 35px;" >
+            <input type="tel" placeholder="手機"><br><br>
+            <input type="email" placeholder="信箱"><br><br>
+            縣市:
+            <select id="selectCountry">
+                <option value="桃園縣 ">桃園縣 </option>
+                <option value="新竹縣 ">新竹縣 </option>
+                <option value="苗栗縣 ">苗栗縣 </option>
+                <option value="彰化縣 ">彰化縣 </option>
+                <option value="南投縣 ">南投縣 </option>
+                <option value="雲林縣 ">雲林縣 </option>
+                <option value="嘉義縣 ">嘉義縣 </option>
+                <option value="屏東縣 ">屏東縣 </option>
+                <option value="宜蘭縣 ">宜蘭縣 </option>
+                <option value="花蓮縣 ">花蓮縣 </option>
+                <option value="台東縣 ">台東縣 </option>
+                <option value="澎湖縣 ">澎湖縣 </option>
+                <option value="金門縣 ">金門縣 </option>
+                <option value="連江縣 ">連江縣 </option>
+                <option value="基隆市 ">基隆市 </option>
+                <option value="新竹市 ">新竹市 </option>
+                <option value="嘉義市 ">嘉義市 </option>
+                <option value="台北市 ">台北市 </option>
+                <option value="新北市 ">新北市 </option>
+                <option value="台中市 ">台中市 </option>
+                <option value="台南市 ">台南市 </option>
+                <option value="高雄市 ">高雄市 </option>
+            </select>
+            <br><br>
+            族群:
+            <select id="selectAborigines">
+                <option value="阿美族">阿美族</option>
+                <option value="泰雅族">泰雅族</option>
+                <option value="排灣族">排灣族</option>
+                <option value="布農族">布農族</option>
+                <option value="卑南族">卑南族</option>
+                <option value="魯凱族">魯凱族</option>
+                <option value="鄒族">鄒族</option>
+                <option value="賽夏族">賽夏族</option>
+                <option value="雅美族(達悟族)">雅美族(達悟族)</option>
+                <option value="邵族">邵族</option>
+                <option value="噶瑪蘭族">噶瑪蘭族</option>
+                <option value="太魯閣族">太魯閣族</option>
+                <option value="撒奇萊雅族">撒奇萊雅族</option>
+                <option value="賽德克族">賽德克族</option>
+                <option value="拉阿魯哇族">拉阿魯哇族</option>
+                <option value="卡那卡那富族">卡那卡那富族</option>
+            </select>
+            <br><br>
+            想了解的資訊:<br>
+            <input type="checkbox" name="information" value="history">歷史&emsp; 
+            <input type="checkbox" name="information" value="food">食物&emsp;
+            <input type="checkbox" name="information" value="clothes">  服飾&emsp;  
+            <input type="checkbox" name="information" value="ceremony">  祭典&emsp;<br>
+            是否需要導遊:
+            <input type="radio" name="guide" value="yes" checked> 是&emsp;
+            <input type="radio" name="guide" value="no"> 否&emsp;<br>
+            是否需要住宿:
+            <input type="radio" name="accommodation" value="yes" checked> 是&emsp;
+            <input type="radio" name="accommodation" value="no"> 否&emsp;<br>
+    
+            <input id="send" type="submit" value="送出" class="btn btn-success btn-large">
+        </form>
+    </div>
+    
   
 </body>
 </html>
