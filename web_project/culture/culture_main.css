@@ -9,3 +9,8 @@
 .title{
     background-color: #6EC26A;
 }
+.center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
