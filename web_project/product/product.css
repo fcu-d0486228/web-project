@@ -14,6 +14,13 @@
 		padding: 0 8px;
 		
 		}
+		.column::after, .row::after {
+		
+		
+		content: "";
+		
+		display: table;
+		}
 
 		@media (max-width: 650px) {
 		.column {
@@ -27,15 +34,19 @@
 		}
 
 		.container {
+		
 		padding: 0 16px;
 		
 		}
-
 		.container::after, .row::after {
+		
+		
 		content: "";
-		clear: both;
+		clear:both;
 		display: table;
 		}
+		
+		
 
 		.title {
 		color: grey;
@@ -77,111 +88,29 @@
 			}
 			
 			
+				
+				
 				.bigphoto{
 				background-color: grey
 				
 				
 				border: 25px;
-				width: 75%;
+				width: 80%;
 				position: relative;
-				margin: auto;
 				
-				float: left;
+				float:up;
+				margin:0 20%;
 				
 				
 				margin-bottom: 16px;
 				padding: 0 8px;
 				}
-				
-				
-				
-				
-				.slider_container {
-				
-				margin: 0px 230px;
-				width: 78%;
-				height: 410px;
-				position: relative;
-				border: 20px solid;    
-				border-color: #fff;
-				border-bottom-width: 100px;
-				background-color: #f5f5f5;
-				box-shadow: #666 0 0 5px;
-				}
 
-				.slider_container div {
-				
-				position: absolute;
-				width: 100%;
-				top: 0;
-				left: 0;
-				opacity: 0;
-				filter: alpha(opacity=0);
+				@media (max-width: 850px) {
+				.bigphoto {
+					width: 100%;
+					display: block;
 				}
-				
-				.slider_container div {
-				-webkit-animation: round 25s linear infinite;
-				animation: round 25s linear infinite;
-				}
-
-				@-webkit-keyframes round {
-					4% {
-						opacity: 1;
-						filter: alpha(opacity=100);
-						/* 0 - 1¨Ì ≤H§J*/
-					}
-					20% {
-						opacity: 1;
-						filter: alpha(opacity=100);
-						/* 1- 5¨Ì¿R§Ó*/
-					}
-					24% {
-						opacity: 0;
-						filter: alpha(opacity=0);
-						/* 5-6¨Ì≤H•X*/
-					}
-				}
-				@keyframes round {
-					4% {
-						opacity: 1;
-						filter: alpha(opacity=100);
-						/* 0 - 1¨Ì ≤H§J*/
-					}
-					20% {
-						opacity: 1;
-						filter: alpha(opacity=100);
-						/* 1- 5¨Ì¿R§Ó*/
-					}
-					24% {
-						opacity: 0;
-						filter: alpha(opacity=0);
-						/* 5-6¨Ì≤H•X*/
-					}
 				}
 				
 				
-				.slider_container div:nth-child(5) {
-					-webkit-animation-delay: 0s;
-							animation-delay: 0s;
-				}
-
-				.slider_container div:nth-child(4) {
-					-webkit-animation-delay: 5s;
-							animation-delay: 5s;
-				}
-
-				.slider_container div:nth-child(3) {
-					-webkit-animation-delay: 10s;
-							animation-delay: 10s;
-				}
-
-				.slider_container div:nth-child(2) {
-					-webkit-animation-delay: 15s;
-							animation-delay: 15s;
-				}
-
-				.slider_container div:nth-child(1) {
-					-webkit-animation-delay: 20s;
-							animation-delay: 20s;
-				}
-			
