@@ -1,153 +1,78 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Taiwanese Aborigines Map</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- library -->
-        <script src="https://d3js.org/d3.v3.min.js"></script>
-        <script src="//d3js.org/topojson.v1.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    </head>
-    <body>
-        <!-- style -->
-        <style>
-            .taiwan-abo-map { 
-                position: relative; 
-            }
-
-            .county-boundary { 
-                fill: none; 
-                stroke: #d68a11;
-                stroke-dasharray: 5, 0; 
-                stroke-linejoin: round; 
-            }
-
-            .map {
-                width: 70%;
-            }
-
-            .info { 
-                width: 30%;
-                position: absolute; 
-                right: 5px; 
-                top: 10px; 
-            }
-
-            .county-name { 
-                background: #ea6f31; 
-                color: #fff; 
-                margin: 5px; 
-                border-radius: 5px; 
-            }
-
-            .aobs { 
-                display: block;
-                position: relative;  
-            }
-
-            .aob-item { 
-                position: relative; 
-                left: 25%;
-                width: 145px;
-                overflow: hidden;
-                max-width: 50%;
-                max-height: 100%;
-                background: #c92424; 
-                color: #fff; 
-                margin: 5px; 
-                padding: 5px; 
-                font-size: x-large; 
-                border-radius: 5px; 
-                text-align: center; 
-                cursor: pointer;
-            }
-
-            .aob-item:hover {
-                background: #e25858;
-                box-shadow: 4px 4px 3px rgba(20%,20%,40%,0.5);
-            }
-        </style>
-        <div class="taiwan-abo-map">
-            <div class="map">
-                <svg width="100%" height="100%" viewBox="100 50 600 500" preserveAspectRatio="xMidYMid"></svg>
-            </div>
-            <div class="info">
-                <div class="aobs">
-                </div>
-                </div>
-        </div>
-        <script>
-            $(document).ready(function() {
-                // load abo county data
-                var data = $.ajax({
-                    url: "./resources/data/abo_county.json",
-                    type: "GET",
-                    dataType: "json",
-                    success: function(Jdata) {
-                        var aboCounty = {};
-                        // parse data
-                       
-                        $.each(Jdata, function (index, item) {
-                            aboCounty[item.county] = item.abo;
-                        });
-
-                        // map
-                        var svg = d3.select("svg")
-
-                        var projection = d3.geo.mercator()
-                            .center([121, 24])
-                            .scale(6000);
-
-                        var path = d3.geo.path()
-                            .projection(projection);
-
-                        d3.json("./resources/data/taiwan.json", function(error, topology) {
-                            var g = svg.append("g");
-                            
-                            // county boundary
-                            d3.select("svg").append("path").datum(
-                                topojson.mesh(topology, topology.objects["County_MOI_1060525"],
-                                    function(a, b) {
-                                        return a !== b;
-                                    })).attr("d", path).attr("class", "county-boundary");
-
-                            d3.select("g").selectAll("path")
-                                .data(topojson.feature(topology, topology.objects.County_MOI_1060525).features)
-                                .enter()
-                                .append("path")
-                                .attr("d", path)
-                                .attr({
-                                    d: path,
-                                    name: function(d) {
-                                        return d.properties["COUNTYNAME"];
-                                    },
-                                    fill: '#fff',
-                                    stroke: "#d68a11"
-
-                                }).attr('stroke-width', "2")
-                                .on("mouseover", function(d) {
-                                    d3.select(this).attr("cursor", "pointer");
-                                    d3.select(this).attr("fill", "#FFD306");
-                                })
-                                .on("mouseleave", function(d) {
-                                    d3.select(this).attr("fill", "#fff");
-                                })
-                                .on("click", function(d) {
-                                    $('.aobs').empty();
-                                    if (aboCounty[d.properties["COUNTYNAME"]]) {
-                                        $.each(aboCounty[d.properties["COUNTYNAME"]], function(index, element) {
-                                            $('.aobs').append('<div class="aob-item">' + element + '<div>');
-                                        });
-                                    }
-                                });
-                        });
-                    },
-                    error: function() {
-
-                    }
+<div class="taiwan-abo-map">
+    <div class="row aobs justify-content-center align-self-center"></div>
+    <div class="map">
+        <svg id="map-svg" viewBox="0 80 1000 600" preserveAspectRatio="xMidYMid"></svg>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        // load abo county data
+        var data = $.ajax({
+            url: "./resources/data/abo_county.json",
+            type: "GET",
+            dataType: "json",
+            success: function(Jdata) {
+                var aboCounty = {};
+                // parse data
+               
+                $.each(Jdata, function (index, item) {
+                    aboCounty[item.county] = item.abo;
                 });
-            });
-        </script>
-    </body>
-</html>
+
+                // map
+                var svg = d3.select("svg")
+
+                var projection = d3.geo.mercator()
+                    .center([121, 24])
+                    .scale(6000);
+
+                var path = d3.geo.path()
+                    .projection(projection);
+
+                d3.json("./resources/data/taiwan.json", function(error, topology) {
+                    var g = svg.append("g");
+                    
+                    // county boundary
+                    d3.select("svg").append("path").datum(
+                        topojson.mesh(topology, topology.objects["County_MOI_1060525"],
+                            function(a, b) {
+                                return a !== b;
+                            })).attr("d", path).attr("class", "county-boundary");
+
+                    d3.select("g").selectAll("path")
+                        .data(topojson.feature(topology, topology.objects.County_MOI_1060525).features)
+                        .enter()
+                        .append("path")
+                        .attr("d", path)
+                        .attr({
+                            d: path,
+                            name: function(d) {
+                                return d.properties["COUNTYNAME"];
+                            },
+                            fill: '#fff',
+                            stroke: "#d68a11"
+
+                        }).attr('stroke-width', "2")
+                        .on("mouseover", function(d) {
+                            d3.select(this).attr("cursor", "pointer");
+                            d3.select(this).attr("fill", "#FFD306");
+                        })
+                        .on("mouseleave", function(d) {
+                            d3.select(this).attr("fill", "#fff");
+                        })
+                        .on("click", function(d) {
+                            $('.aobs').empty();
+                            if (aboCounty[d.properties["COUNTYNAME"]]) {
+                                $.each(aboCounty[d.properties["COUNTYNAME"]], function(index, element) {
+                                    $('.aobs').append('<div class="aob-item col-3">' + element + '<div>');
+                                });
+                            }
+                        });
+                });
+            },
+            error: function() {
+
+            }
+        });
+    });
+</script>
