@@ -1,5 +1,5 @@
 <div class="taiwan-abo-map">
-    <div class="row aobs justify-content-center align-self-center"></div>
+    <div class="row abos justify-content-center align-self-center"></div>
     <div class="map">
         <svg id="map-svg" viewBox="0 80 1000 600" preserveAspectRatio="xMidYMid"></svg>
     </div>
@@ -61,7 +61,7 @@
                             d3.select(this).attr("fill", "#fff");
                         })
                         .on("click", function(d) {
-                            $('.aobs').empty();
+                            $('.abos').empty();
                             if (aboCounty[d.properties["COUNTYNAME"]]) {
                                 $.each(aboCounty[d.properties["COUNTYNAME"]], function(index, element) {
                                     var aboDataMap = $.ajax({
@@ -72,7 +72,7 @@
                                             $.each(aboDataMapJson, function(dataIndex, dataEelement) {
                                                 if (dataEelement.chinese == element) {
                                                     console.log(dataEelement.totem);
-                                                    $('.aobs').append('<div class="aob-item col-3 justify-content-center align-self-center"><img class="totem" src="' + dataEelement.totem + '"><span>' + element + '</span></div>');
+                                                    $('.abos').append('<div class="abo-item col-3 justify-content-center align-self-center"><img class="totem" src="' + dataEelement.totem + '"><span>' + element + '</span></div>');
                                                 }
                                             });
                                         }, 

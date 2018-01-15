@@ -1,9 +1,7 @@
 html, body {
+  background: #3ebdff;
   margin: 0;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 /*# sourceMappingURL=index.css.map */

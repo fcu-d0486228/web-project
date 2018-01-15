@@ -54,7 +54,7 @@ $(document).ready(function() {
                         d3.select(this).attr("fill", "#fff");
                     })
                     .on("click", function(d) {
-                        $('.aobs').empty();
+                        $('.abos').empty();
                         if (aboCounty[d.properties["COUNTYNAME"]]) {
                             $.each(aboCounty[d.properties["COUNTYNAME"]], function(index, element) {
                                 var aboDataMap = $.ajax({
@@ -65,7 +65,7 @@ $(document).ready(function() {
                                         $.each(aboDataMapJson, function(dataIndex, dataEelement) {
                                             if (dataEelement.chinese == element) {
                                                 console.log(dataEelement.totem);
-                                                $('.aobs').append('<div class="aob-item col-3 justify-content-center align-self-center"><img class="totem" src="' + dataEelement.totem + '"><span>' + element + '</span></div>');
+                                                $('.abos').append('<div class="abo-item col-3 justify-content-center align-self-center"><img class="totem" src="' + dataEelement.totem + '"><span>' + element + '</span></div>');
                                             }
                                         });
                                     }, 
