@@ -1,0 +1,15 @@
+.btn.style1 {
+    width:200px;
+}
+.pic{
+    height: 150px;
+    width: 180px;
+}
+.title{
+    background-color: #6EC26A;
+}
+.center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
