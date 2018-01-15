@@ -1,66 +1,66 @@
 {
 	"Amis": {
 		"chinese": "阿美族",
-		"totem": "../resources/images/totem/svg/Amis.svg"
+		"totem": "../common/resources/images/totem/svg/Amis.svg"
 	}, 
 	"Sediq": {
 		"chinese": "賽德克族",
-		"totem": "../resources/images/totem/svg/Sediq.svg"
+		"totem": "../common/resources/images/totem/svg/Sediq.svg"
 	}, 
 	"Truku": {
 		"chinese": "太魯閣族",
-		"totem": "../resources/images/totem/svg/Truku.svg"
+		"totem": "../common/resources/images/totem/svg/Truku.svg"
 	}, 
 	"Puyuma": {
 		"chinese": "卑南族",
-		"totem": "../resources/images/totem/svg/Puyuma.svg"
+		"totem": "../common/resources/images/totem/svg/Puyuma.svg"
 	}, 
 	"Thao": {
 		"chinese": "邵族",
-		"totem": "../resources/images/totem/svg/Thao.svg"
+		"totem": "../common/resources/images/totem/svg/Thao.svg"
 	}, 
 	"Paiwan": {
 		"chinese": "排灣族",
-		"totem": "../resources/images/totem/svg/Paiwan.svg"
+		"totem": "../common/resources/images/totem/svg/Paiwan.svg"
 	}, 
 	"Kavalan": {
 		"chinese": "噶瑪蘭族",
-		"totem": "../resources/images/totem/svg/Kavalan.svg"
+		"totem": "../common/resources/images/totem/svg/Kavalan.svg"
 	}, 
 	"Saisiyat": {
 		"chinese": "賽夏族",
-		"totem": "../resources/images/totem/svg/Saisiyat.svg"
+		"totem": "../common/resources/images/totem/svg/Saisiyat.svg"
 	}, 
 	"Sakizaya": {
 		"chinese": "撒奇萊雅族",
-		"totem": "../resources/images/totem/svg/Sakizaya.svg"
+		"totem": "../common/resources/images/totem/svg/Sakizaya.svg"
 	}, 
 	"Bunun": {
 		"chinese": "布農族",
-		"totem": "../resources/images/totem/svg/Bunun.svg"
+		"totem": "../common/resources/images/totem/svg/Bunun.svg"
 	}, 
 	"Atayal": {
 		"chinese": "泰雅族",
-		"totem": "../resources/images/totem/svg/Atayal.svg"
+		"totem": "../common/resources/images/totem/svg/Atayal.svg"
 	}, 
 	"Tsou": {
 		"chinese": "鄒族",
-		"totem": "../resources/images/totem/svg/Tsou.svg"
+		"totem": "../common/resources/images/totem/svg/Tsou.svg"
 	}, 
 	"Rukai": {
 		"chinese": "魯凱族",
-		"totem": "../resources/images/totem/svg/Rukai.svg"
+		"totem": "../common/resources/images/totem/svg/Rukai.svg"
 	}, 
 	"Tao": {
 		"chinese": "達悟族",
-		"totem": "../resources/images/totem/svg/Tao.svg"
+		"totem": "../common/resources/images/totem/svg/Tao.svg"
 	}, 
 	"Hlaalua": {
 		"chinese": "拉阿魯哇族",
-		"totem": "../resources/images/totem/svg/Hlaalua.svg"
+		"totem": "../common/resources/images/totem/svg/Hlaalua.svg"
 	}, 
 	"Kanakanavu": {
 		"chinese": "卡那卡那富族",
-		"totem": "../resources/images/totem/svg/Kanakanavu.svg"
+		"totem": "../common/resources/images/totem/svg/Kanakanavu.svg"
 	}
 }

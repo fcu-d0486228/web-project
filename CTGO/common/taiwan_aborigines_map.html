@@ -71,7 +71,6 @@
                                         success: function(aboDataMapJson) {
                                             $.each(aboDataMapJson, function(dataIndex, dataEelement) {
                                                 if (dataEelement.chinese == element) {
-                                                    console.log(dataEelement.totem);
                                                     $('.abos').append('<div class="abo-item col-3 justify-content-center align-self-center"><img class="totem" src="' + dataEelement.totem + '"><span>' + element + '</span></div>');
                                                 }
                                             });
