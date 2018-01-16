@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css)
+
+.enter-sticker
+	width: 100%
+	height: 200px
+	display: flex
+	align-items: center
+	justify-content: space-around
+	overflow : hidden
+
+	.enter-festival, .enter-language
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 180px
+		width: 180px
+		box-shadow: 2px 2px 1px rgba(20%, 20%, 40%, 0.5)
+		cursor: pointer
+
+		:hover
+			box-shadow: 4px 4px 2px rgba(20%, 20%, 40%, 0.5)
+			transition: 0.5s
+		
+		.enter-bg
+			height: 100%
+			width: 100%
+			z-index: 1
+
+		.enter-title
+			position: relative
+			left: 50%
+			top: 50%
+			transform: translateX(-50%) translateY(-50%)
+			text-align: center
+			line-height: 100%
+			font-family: 'Noto Sans TC', sans-serif
+			font-size: 3vw
+			z-index: -1
+	
+	.enter-festival
+		.enter-bg
+			background: #36A9CE
+
+	.enter-language
+		.enter-bg
+			background: #D0E17D

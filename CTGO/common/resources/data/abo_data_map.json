@@ -1,66 +1,244 @@
 {
 	"Amis": {
 		"chinese": "阿美族",
-		"totem": "../common/resources/images/totem/svg/Amis.svg"
+		"totem": "../common/resources/images/totem/svg/Amis.svg",
+		"english": "Amis",
+		"festival": {
+			"festival_name_ch": ["捕魚祭", "豐年祭", "馬里古拉艾文化節", "海祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["每年五月間稻出穗時節，港口部落會舉行捕食祭，祭祀海神以祈求漁獲豐收。在先祖時代，每當農作收成之前，族人便會相邀在海邊或河濱捕魚，並舉行祭儀，祈求年年能有好收成。隨著時代的改變，生活型態不同，生態環境遭受破壞，現今阿美族的捕魚祭在形式上已有所改變了。<br>居住在海邊的阿美族人會下海捕魚，沿溪居住者則在河中捕抓，不過在下水捕魚之前，必須先舉行祭拜河神的儀式，即用酒、肉和麻糬到海邊祭神，祈求神明的佑助，能夠有好的收成。捕魚活動是由年長階級指揮，各年齡階層的少年們分頭在海中或河中捕魚，約在中央以前回到集合的地點。而捕魚的過程中，若有捕獲大魚者，還可高呼歡唱，一方面炫燿自己的成果，另一方面則與族人分享收穫的喜悅。<br>捕魚的少年們將捕獲的魚全部集中起來，一起下鍋烹煮。將一道佳餚排列整齊後，再依年齡階級由大至小分發共享，藉此告訴年輕的族人們，要懂得敬老尊賢，遵從長者的指導。而年長者也會將分剩的魚蝦，再分給年齡階層較低或表現優異的少年們，以表示鼓勵與嘉許。捕魚祭，不僅展現阿美族昔日生活的面貌，也讓族人在祭典活動中，一方面習得阿美族的信仰文化，一方面記取尊敬長者的美德，更體驗共同合作、團結一致的精神，是傳承阿美族文化的重要方式之一。", 
+				"阿美族在每一年的七月中旬都會舉辦慶祝豐收的豐年祭，除了慶祝及感謝祖靈的庇祐，讓族人在過去的一年中衣食無虞，也請祖靈繼續庇祐族人在新的一年依然能逢凶化吉。豐年祭原為各部落的活動，但近來政府機關常主辦「聯合豐年祭」，地點、時間不定。", 
+				"以傳統舞蹈及歌謠之展現以振興原住民固有優良文化，結合民間、部落之力量共同推動原住民文化活動，以活絡原住民民俗文化藝術活。並發揚阿美族之傳統文化並傳予阿美族下一代子孫及傳續阿美族傳統敬老精神，以保留阿美族善良風俗。", 
+				"傳統阿美族與噶瑪蘭族特有的海祭，主要祈求海上作業漁獲豐收、作業平安所舉行之祭典。"],
+			"festival_name_img": ["../festival&language/resources/festival/Amis/images/Amis_Buyuji.png", 
+				"../festival&language/resources/festival/Amis/images/Amis_fongnian.jpg",
+				"../festival&language/resources/festival/Amis/images/Amis_maguligu.jpg",
+				"../festival&language/resources/festival/Amis/images/Amis_hai.jpg"]
+		},
+		"language": {}
 	}, 
 	"Sediq": {
 		"chinese": "賽德克族",
-		"totem": "../common/resources/images/totem/svg/Sediq.svg"
+		"totem": "../common/resources/images/totem/svg/Sediq.svg",
+		"english": "Sediq",
+		"festival": {
+			"festival_name_ch": ["獵首祭", "捕魚祭", "狩獵祭", "祈雨祭", "收穫祭", "播種祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["賽德克族在舉行「收穫祭」後的獵首行動，於此即以收穫祭的獵首行動為例，略述賽德克族的獵首祭。<br>在部落時代，賽德克族人除了對入侵的敵方獵首外，於舉行播種祭與收穫祭時會執行獵首行動係屬傳統的祭祀範疇，播種祭儀前的獵首是祈求Utux(Utux Tmninun)賜予豐收，收穫祭儀後的獵首則是感謝Utux(Utux Tmninun)的庇佑與賜福。因應收穫祭所派出的獵首團是代表部落或一個區域的威勢，大都由部落意見領袖帶頭出獵，出獵之前早已派出先遣隊探得該次獵首的地點與對象。獵首團所敬候的是Utux(Utux Tmninun)的應允。<br>在那個年代裡人口愈多的部落就愈壯大，部落愈壯大族群就愈強盛，可知部落時期賽德克族人對人丁旺盛的渴望。<br>因此，「獵首祭」實則為賽德克族人因部落增加了一個人力及為部落迎接一位新夥伴而慶祝的儀式。<br>由於賽德克族人獵首的首要目的是「增加部落的人力」，因而對行獵的對象有其一定的規範：不獵孩童；不獵婦女，尤其懷有身孕者；不獵老者；不獵殘障者。", 
+				"賽德克族在完成小米及黍米的收割與儲藏的工作後，於一個月內會接連舉行各為期一日的狩獵祭及捕魚祭，但該兩項祭儀活動都沒有任何祭祀儀式，舉行的日期及方式由部落長老決議託付部落意見領袖執行，傳統上先舉行狩獵祭後舉辦捕魚祭，兩者約相隔一週。<br>在獵祭及捕魚祭的活動中，至少提供了以下的育、樂效果：<br>(1)有孩童們的參與，基於童心及好奇心，必能帶給族人無限的歡樂。<br>(2)有青少年及青年男女們的加入，將增進男女青年佳偶天成的機會。<br>(3)長者們可現場傳授狩獵的技巧與經驗。<br>(4)讓族中晚輩們親身體驗、學習本族分享與狩獵的文化。", 
+				"賽德克族的狩獵祭約於每年的10〜11月間舉行，就在舉行收穫祭之後的一個月內相繼舉辦，狩獵祭常以單一部落或聯合數個鄰近部落的方式進行。狩獵祭當天，除老弱婦孺及重病在身者外部落全體族人都參與該項狩獵盛事，其獵獲物由部落的每一位族人共同分享，以每戶的人口數做為均分的依據，包括因故無法來到現場狩獵的部落族人，若遇有身孕的婦女，則可分得兩份，這是賽德克族人敬重、呵護每一個生命體的實質作為。<br>女性不得出現在狩獵的行列中，就如男性不得從事織布的工作一樣。<br>對賽德克族人而言，舉行狩獵祭具有以下兩種意涵：<br>（一）狩獵祭是族人們為了準備迎接新的一年所舉辦的部落活動。<br>先祖們對「一年」的概念是，根據小米、黍米的收獲與播種來作為「一個年」的過去與到來。<br>（二）狩獵祭是為了慶祝豐收及感謝Utux的庇祐所舉辦的部落聯誼活動，若遇作物欠收時更要祈求Utux的庇護。", 
+				"當遭逢久旱不雨的災情時，賽德克族人才會舉行祈雨祭，因此祈雨祭並非固定或經常性的祭儀，而是隨機舉行的祭祀活動。賽德克族人會選擇部落附近的溪流舉行祈雨祭，至於要在哪一區域的溪流段舉行則由祈雨的主祭司選定。<br>一般而言，每個部落的祈雨主祭司都會選定2〜3處的祈雨溪流段，究竟要在哪一溪流段舉行，端視Utux的啟示（有人稱之為『夢占』）而定。",
+				"收穫祭約於每年的9〜10月間舉行，其活動規模與播種祭相同，要遵守的族規也與播種祭雷同，即由部落意見領袖協同長老數人同赴主祭司的家中咨商有關收穫事宜，決定祭祀活動的時日；舉行祭祀活動的前一天也要全面實施宵禁，整個區域將進入寂靜狀態，若遇有部落族人不幸身亡就得另擇時日舉行等等。<br>不論是收穫祭或播種祭儀，幾乎都由主祭司所領導的祭團主導祭儀的進行，部落族人只管全力配合，從祭壇的設置到祭禮的進行，除祭團成員外一般族人都不可接近，也無法在旁觀禮，尤其祭祀文的內容是絕對不能外漏的，而且只能代代單傳。",
+				"農獵時期，賽德克族以「燒墾游耕」的傳統耕作法種植作物，小米一年僅能播種一期。小米播種祭約於每年的2〜3月間舉行，舉行播種祭儀之前，由部落意見領袖協同長老數人齊赴主祭司的家中咨商有關播種事宜，擇定時日後同一區域所有的部落同時舉行，除病重及不良於行者之外全體族人參與，但期間若有同一區域內的任一部落有人亡故，則取消該次的祭祀活動，另擇日舉行。"],
+			"festival_name_img": ["../festival&language/resources/festival/Sediq/images/Sediq_killhead.png", 
+				"../festival&language/resources/festival/Sediq/images/Sediq_buyu.jpg",
+				"../festival&language/resources/festival/Sediq/images/Sediq_solie.jpg",
+				"../festival&language/resources/festival/Sediq/images/Sediq_rain.jpg",
+				"../festival&language/resources/festival/Sediq/images/Sediq_soho.jpg",
+				"../festival&language/resources/festival/Sediq/images/Sediq_bozon.jpg"]
+		},
+		"language": {}
 	}, 
 	"Truku": {
 		"chinese": "太魯閣族",
-		"totem": "../common/resources/images/totem/svg/Truku.svg"
+		"totem": "../common/resources/images/totem/svg/Truku.svg",
+		"english": "Truku",
+		"festival": {
+			"festival_name_ch": ["祖靈祭", "馘首祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["每年七月小米收割後，是太魯閣族祖靈祭的重要季節。屆時由頭目或長老議訂時間，當日天未亮時，全社男子均抵祭場，每人手持插有黏糕、豬肉之竹棒，是為奉獻祖靈之供品。俟祭典完畢，即須當場食用完祭品，且沿途返家時需越過火堆，而與祖靈分離。", 
+				"出草禮即「拿敵人頭」，出草的原因1.替祖先的敵人報仇2.作男子漢(為加入青年團、紋面等)3.受辱4.驅除傳染病， 5.死後順利過靈魂橋。出草回來而獵首者約十天穿著英雄服（hubang）。<br>出草獵團中有傷亡或戰死的就算有獵到敵首也低調行事。發起者對死者家屬賠償器具。族長殺豬拿到深山去剁來炒，一個一個呼叫著部落名稱，表示把肉分給部落及賠罪。若有人受傷，發起出草者負責賠償醫療費。"],
+			"festival_name_img": ["../festival&language/resources/festival/Truku/images/Truku_zulin.jpg", 
+				"../festival&language/resources/festival/Truku/images/Truku_chuchau.jpg"]
+		},
+		"language": {}
 	}, 
 	"Puyuma": {
 		"chinese": "卑南族",
-		"totem": "../common/resources/images/totem/svg/Puyuma.svg"
+		"totem": "../common/resources/images/totem/svg/Puyuma.svg",
+		"english": "Puyuma",
+		"festival": {
+			"festival_name_ch": ["收穫祭", "少年猴祭", "大獵祭", "聯合年祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["在七月中旬舉行，又稱為海祭，在海邊往蘭嶼的方向遙祭帶小米種籽到人間的二位神祇，會後並在社區內舉辦摔角活動。", 
+				"舉行時間在12月25日，猴祭主要是藉著刺猴培養少年的膽識及殺敵的氣概。", 
+				"每年12月27日～30日舉行，原始意義為年度的狩獵、復仇與獵首，目前改為定點式的三天，在野地紮營抓田鼠。活動以老人為主導。大獵祭回來的當天，全村村人在卑南新站前立凱旋門，盛裝列隊歡迎，並為長老們戴上花環，吟唱傳統的史詩、聚餐等一連串的活動。", 
+				"(元月2日舉行)由八社輪流舉辦，有八社的表演及競賽。"],
+			"festival_name_img": ["../festival&language/resources/festival/Puyuma/images/Puyuma_soho.jpg", 
+				"../festival&language/resources/festival/Puyuma/images/Puyuma_monkey.jpg",
+				"../festival&language/resources/festival/Puyuma/images/Puyuma_dalie.jpg",
+				"../festival&language/resources/festival/Puyuma/images/Puyuma_lianho.jpg"]
+		},
+		"language": {}
 	}, 
 	"Thao": {
 		"chinese": "邵族",
-		"totem": "../common/resources/images/totem/svg/Thao.svg"
+		"totem": "../common/resources/images/totem/svg/Thao.svg",
+		"english": "Thao",
+		"festival": {
+			"festival_name_ch": ["播種祭", "祖靈祭", "豐年祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["播種祭通常自農曆三月一日開始，為期四天。在第一天的清早，各戶的戶長都會帶領一名孩童上山做象徵性的播種，而上山的大人和孩童這一天都不能吃鹽，否則將會使植物枯死。而播種祭的前三天，全家的食物都不能加鹽，言行也必須謹慎。", 
+				"邵族的Lus’an（祖靈祭）也就是過新年。在農曆7月最後一夜，族人要到袁姓頭人家舂石音，以matlhakan（杵音報訊儀式）宣示祭典開始、迎接新年到來，是邵族最具特色也最盛大的祭典。", 
+				"在每年農曆八月一日開始，持續十八天至二十一天，是邵族最重要的祭儀。<br>豐年祭主要含括「選出爐主」、「舂石音」、「擦平安」、「除祟祝禱」、「鑽木取火」、「拜年飲公酒」、「拜酒糟」、「摃角齒」、「蓋祖靈屋」、「牽田」、「甜酒祭」、「祖靈出巡」、「燒祖靈屋」……等等儀式。"],
+			"festival_name_img": ["../festival&language/resources/festival/Thao/images/Thao_bozon.jpg", 
+				"../festival&language/resources/festival/Thao/images/Thao_zulin.jpg",
+				"../festival&language/resources/festival/Thao/images/Thao_fongnian.jpg"]
+		},
+		"language": {}
 	}, 
 	"Paiwan": {
 		"chinese": "排灣族",
-		"totem": "../common/resources/images/totem/svg/Paiwan.svg"
+		"totem": "../common/resources/images/totem/svg/Paiwan.svg",
+		"english": "Paiwan",
+		"festival": {
+			"festival_name_ch": ["收穫祭", "人神盟約祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["Masarut排灣語的意思是「過一個年」。其本意是感謝神靈的眷顧，給神過年之意。並做為一個年度的終止或開始的分界。主要是由祭師主持祭儀，並將收穫的小米入倉，選播種用的小米，吃新米等活動。", 
+				"是排灣族最盛大的祭典，每五年舉行一次，因此又稱為「五年祭」。<br>傳說排灣族的先祖到神界向女神學習祭儀以祈求五穀豐收，學習農作的種植、頭目婚禮的儀式等。並與女神約定，在一段時間內以燃燒小米粳為記號，請神降臨人間，接受人類的獻祭。<br>五年祭長達十五天以上，從準備材料到祭典完畢，一連串的活動以男、女祭師為主導，屬於全部落男性的事務則全村一起參與。"],
+			"festival_name_img": ["../festival&language/resources/festival/Paiwan/images/Paiwan_soho.jpg", 
+				"../festival&language/resources/festival/Paiwan/images/Paiwan_humangod.jpg"]
+		},
+		"language": {}
 	}, 
 	"Kavalan": {
 		"chinese": "噶瑪蘭族",
-		"totem": "../common/resources/images/totem/svg/Kavalan.svg"
+		"totem": "../common/resources/images/totem/svg/Kavalan.svg",
+		"english": "Kavalan",
+		"festival": {
+			"festival_name_ch": ["歲末祭祖", "海祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["噶瑪蘭人相信人在世的禍福是由祖先賜與的，並相信每年過年時祖先會回到家中。這是一個相當普遍聚落性差異較小的儀式。Palilin 祭祖通常以一個家為單位舉行，而祭祀的對象則以家中戶長（有男有女）死去的父方、母方親戚為主。在這過年全家團圓熱鬧之際，請祖先們喝酒與共餐，彷彿如祂們還在世般團聚一起。並祈求祂們能保佑全家人健康平安。Palilin的意義也就是在此：敬祖、祭祖，求平安。 ", 
+				"每年三、四月春夏之交，噶瑪蘭男人們會擇定吉日，一起聚集海邊舉行LaLiGi海饗。早晨，族中長老在海邊行過祭拜祖靈後，年輕男人便出海捕魚。近午時，捕魚的人回岸，年長者在岸上迎接他們。接著就地烹煮鮮魚和野菜煮食，也會把捕來的魚送回村裡，供其他未能參加的族人分享，活動持續兩三天。"],
+			"festival_name_img": ["../festival&language/resources/festival/Kavalan/images/Kavalan_suamogizu.jpg", 
+				"../festival&language/resources/festival/Kavalan/images/Kavalan_hai.jpg"]
+		},
+		"language": {}
 	}, 
 	"Saisiyat": {
 		"chinese": "賽夏族",
-		"totem": "../common/resources/images/totem/svg/Saisiyat.svg"
+		"totem": "../common/resources/images/totem/svg/Saisiyat.svg",
+		"english": "Saisiyat",
+		"festival": {
+			"festival_name_ch": ["播種祭", "祖靈祭", "矮靈祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["在四月舉行，由主祭一人在某一天的午夜十二點過後，獨自在預先選好的一塊地上插上一根兒茅(茅草的一種)，按著閉上眼睛，將小米種籽灑向田地，儀式就算結束。主要是祈求今年的農作豐收。目前只有向天湖還保有此祭儀。", 
+				"主要是祭祀去世的則祖列宗。舉行的時間不一定，由二位長老主持，將插有豬肉、黏糕的供品及酒攜至屋後空地行祭。<br>祭品分為二份，向東的給善靈，向西的給凶死的靈。祖靈祭的另一個目的是家族成員的認定，透過儀式成為家族的一份子。", 
+				"是賽夏族最盛大的祭典，原為每一年舉行一次，每十年又舉行一次「十年大祭」。由南察團迎接矮靈揭開序幕，隔天再出北察團(五峰鄉大隘村)迎靈。<br><br>南、北祭團各三天三夜，整個矮靈祭就在族人錯綜複雜的心理狀況下延續下來，其中有悔恨、有追憶、有懼怕、有喜悅……。"],
+			"festival_name_img": ["../festival&language/resources/festival/Saisiyat/images/Saisiyat_bozon.jpg", 
+				"../festival&language/resources/festival/Saisiyat/images/Saisiyat_zulin.jpg",
+				"../festival&language/resources/festival/Saisiyat/images/Saisiyat_ailin.jpg"]
+		},
+		"language": {}
 	}, 
 	"Sakizaya": {
 		"chinese": "撒奇萊雅族",
-		"totem": "../common/resources/images/totem/svg/Sakizaya.svg"
+		"totem": "../common/resources/images/totem/svg/Sakizaya.svg",
+		"english": "Sakizaya",
+		"festival": {
+			"festival_name_ch": ["巴拉瑪火神祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["巴拉瑪火神祭與傳統豐年祭不同，為撒奇來雅族後人對祖先的追思祭典。，體驗及追緬先民落難情境。在祈福儀式後，舉行火葬儀式燃燒火神太花棺，祈求火神的靈魂能與族人一起浴火重生。"],
+			"festival_name_img": ["../festival&language/resources/festival/Sakizaya/images/Sakizaya_balama.jpg"]
+		},
+		"language": {}
 	}, 
 	"Bunun": {
 		"chinese": "布農族",
-		"totem": "../common/resources/images/totem/svg/Bunun.svg"
+		"totem": "../common/resources/images/totem/svg/Bunun.svg",
+		"english": "Bunun",
+		"festival": {
+			"festival_name_ch": ["射耳祭", " 嬰兒節"],
+			"festival_name_eg": [],
+			"festival_intro": ["是布農族唯一全部落性的祭典。於每年四月底、月缺的時候舉行，以射鹿耳一最大動物的耳朵來象徵來年狩獵的豐碩，目前也祈求農作的豐收及財運亨通。射耳祭只限於男子參加，女子禁止至祭祀場所。", 
+				"布農人在每年六月的月圓時期，為這一年出生的嬰兒舉行佩掛項鍊的儀式。期望孩子們能像項鍊般耀眼、美麗。當天並宴請親友，告知這位新生兒的布農名字，接受族人的慶賀與祝福。經濟狀況好的家庭，酒宴甚至可以持續數日。<br>由於社會的變遷，有些部落則溶入西方教會的日程，在每年約六月由教會決定日期。當天中午舉行餐會，晚上，全村婦女將新生兒抱至教會，由村人猜測每個小孩的名字，答對的人接受該家父母的禮物。會場充滿了遊戲的趣味與新生的喜悅。"],
+			"festival_name_img": ["../festival&language/resources/festival/Bunun/images/Bunun_sir.JPG", 
+				"../festival&language/resources/festival/Bunun/images/Bunun_baby.JPG"]
+		},
+		"language": {}
 	}, 
 	"Atayal": {
 		"chinese": "泰雅族",
-		"totem": "../common/resources/images/totem/svg/Atayal.svg"
+		"totem": "../common/resources/images/totem/svg/Atayal.svg",
+		"english": "Atayal",
+		"festival": {
+			"festival_name_ch": ["祖靈祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["傳統舉行祖靈祭的季節是小米收割以後(大約在八－十月)，由頭目或長老開會商議時間，全社男子都要參加，在天未亮時，到達祭場，每人手持竹棒，上面插有黏糕、豬肉，做為獻給祖靈之供品。<br>祖靈祭的祭品不能帶回部落，必須在祭祀地吃完。沿途回家時要越過火堆，以示與祖靈分隔，並忌諱回頭看。"],
+			"festival_name_img": ["../festival&language/resources/festival/Atayal/images/Atayal_zulin.jpg"]
+		},
+		"language": {}
 	}, 
 	"Tsou": {
 		"chinese": "鄒族",
-		"totem": "../common/resources/images/totem/svg/Tsou.svg"
+		"totem": "../common/resources/images/totem/svg/Tsou.svg",
+		"english": "Tsou",
+		"festival": {
+			"festival_name_ch": ["敵首祭", "小米收穫祭", "小米播種祭 ", "子安貝祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["約在二月或八月，主要是在會所及廣場前舉行祭拜天神和戰神的儀式。<br>傳統上，舉行mayasvi的時機有三種：一是出草歸來。二是重建會所。三是小米收穫祭後。 <br>以首級祭天神，獵頭亦有其他目的如復仇、保土、掠地及炫耀勇武取得主帥等。若整年都不能獲一頭顱，天神無頭顱可食則該年就會不穀不豐，列而不獲、家不添丁、大地凋零。故鄒族不斷期望或首級而全力以赴了。", 
+				"屬於家族性的祭儀。大約在七、八月左右。主要祭祀小米神，感謝牠對農作的照顧，並藉著祭典強化家族的凝聚力。是鄒族最重要的祭典，也是鄒族人的過年。", 
+				"通常在聖誕節後至元旦期間舉行，藉著小米的播種儀式祈求今年的小米豐收。", 
+				"傳說祖靈藏在子安貝(殼)裡，平時收藏在一個小壺裡，到祭典時才拿出來供奉。其原意接近祖靈祭。"],
+			"festival_name_img": ["../festival&language/resources/festival/Tsou/images/Tsou_diso.jpg", 
+				"../festival&language/resources/festival/Tsou/images/Tsou_xiaomisoho.jpg",
+				"../festival&language/resources/festival/Tsou/images/Tsou_xiaomibozon.jpg",
+				"../festival&language/resources/festival/Tsou/images/Tsou_zanbay.jpg"]
+		},
+		"language": {}
 	}, 
 	"Rukai": {
 		"chinese": "魯凱族",
-		"totem": "../common/resources/images/totem/svg/Rukai.svg"
+		"totem": "../common/resources/images/totem/svg/Rukai.svg",
+		"english": "Rukai",
+		"festival": {
+			"festival_name_ch": ["粟收穫祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["在每年八月左右，舉行收穫祭，並藉此迎接新的一年。收穫祭裡有一個重要的儀式，是烤小米餅，看小米餅烤出來的現象作為今年農作與狩獵的卜問。例如，烤得太乾，今年可能雨水較少，烤得溫潤，表示今年的雨水豐沛。<br>烤小米餅的儀式只限男性參與，是一種宗教行為。"],
+			"festival_name_img": ["../festival&language/resources/festival/Rukai/images/Rukai_lisoho.png"]
+		},
+		"language": {}
 	}, 
 	"Tao": {
 		"chinese": "達悟族",
-		"totem": "../common/resources/images/totem/svg/Tao.svg"
+		"totem": "../common/resources/images/totem/svg/Tao.svg",
+		"english": "Tao",
+		"festival": {
+			"festival_name_ch": ["飛魚祭 ", "大船下水典禮", " 新屋落成禮"],
+			"festival_name_eg": [],
+			"festival_intro": ["共分為三個部分:招魚祭.收藏祭.終食祭，招魚祭在每年二～三月舉行，意在召請飛魚，祈求漁獲豐碩。<br>收藏祭在六～七月舉行，表示飛魚汛期已結束，曬乾儲存以備冬季時食用。的當天，村民將今年捕獲的大魚尾巴(通常是鮪魚)穿串吊掛在海邊，從那天起，不再捕抓飛魚，改抓其他的食用魚。<br>終食祭在每年的中秋節以後，停止食用飛魚。並將未食的飛魚丟棄。",
+				"下水典禮的前幾天，婦女們佩掛瑪瑙，戴上禮帽。正典當天，村民們都來幫忙殺豬，船主依次分贈禮肉、禮芋給各家戶。是全島的盛事，所有親朋好友都均盛裝與會來祝賀，充滿了辦喜事的氣氛。<br>船主及青年們穿著丁字褲，在大船四周舉行驅逐惡靈的儀式，隨後抬起大船，拋向空中數次。直到新船下水，在海上划行，整個大船下水典禮才算圓滿達成。",
+				"達悟人極為重視新屋落成，新屋的建造請親朋好友來幫工，藉此互相累積建屋的經驗，婦女們則需廣植芋田，以備落成時使用。在達悟的習俗裡，父母親去世後，家屋必須拆卸，建材由兒子們繼承，兒子們再利用這些建材聯合自己山上取回來的建材建造自己的家屋。不勞而獲的繼承被認為是恥辱的。"],
+			"festival_name_img": ["../festival&language/resources/festival/Tao/images/Tao_fayu.jpg", 
+				"../festival&language/resources/festival/Tao/images/Tao_datsan.jpg",
+				"../festival&language/resources/festival/Tao/images/Tao_xinwu.jpg"]
+		},
+		"language": {}
 	}, 
 	"Hlaalua": {
 		"chinese": "拉阿魯哇族",
-		"totem": "../common/resources/images/totem/svg/Hlaalua.svg"
+		"totem": "../common/resources/images/totem/svg/Hlaalua.svg",
+		"english": "Hlaalua",
+		"festival": {
+			"festival_name_ch": ["貝神祭"],
+			"festival_name_eg": [],
+			"festival_intro": ["是拉阿魯阿人所有祭祀中最重要的祭典，每兩年舉行一次。平常貝神是由raahli（部落首領）保管，頭目會把貝神放在甕中封起來，再把甕埋在家後面，但很神奇的是，不到祭典時，既使貝神被封在甕裡，埋在土裡，卻仍然不見其在存。據說祂們都已經回到hlasunga這個地方了，但是當族人要舉行貝神祭的前十天，部落首領會去看甕裡的貝神是否已回來，果然發現貝神都已經回到甕中，這是不可思議的神奇之事。"],
+			"festival_name_img": ["../festival&language/resources/festival/Hlaalua/images/Hlaalua_basun.jpg"]
+		},
+		"language": {}
 	}, 
 	"Kanakanavu": {
 		"chinese": "卡那卡那富族",
-		"totem": "../common/resources/images/totem/svg/Kanakanavu.svg"
+		"totem": "../common/resources/images/totem/svg/Kanakanavu.svg",
+		"english": "Kanakanavu",
+		"festival": {
+			"festival_name_ch": ["米貢祭", "河祭"],
+			"festival_name_eg": [],
+			"festival_intro": [" 傳說某一天卡那卡那富有一位男族人，肚子餓至野外尋挖似山藥的食物（Namnsi），越挖越深時現出一個大洞，這位族人在好奇心驅使下，整個軀幹順勢潛入大洞中，深入不久後迎面而來的是地神（Tamuunai），地神拿出餅予以款待，男子感覺美味極了，地神說明餅是小米（Vina’u）成分所製做的，男子祈求地神給予帶回小米種子，地神毫不猶豫答應，並也給了男子大豆（Nupunupu）、樹豆（Aricang）、Nomi（已絕跡所結米粒比小米還小）等種子，最後並囑咐男子，從今以後卡那卡那富族人如有舉行小米祭儀時，必須感謝呼喚地神之名，後來種子成為卡那卡那富族人的主要食物，每年在豐收後都會辦理米貢祭，以表達對天神（Tamo）與地神的感謝之意。", 
+				" 台灣少數每年舉辦河祭的原住民族群，原住民族中少有的祭典形式，其特殊性可見一般。大約在二、三百年前，卡那卡那富的祖先來到幽靜美麗的那瑪夏（現今楠梓仙溪），於兩側台地安居繁衍，他們發現該河流清澈曲優，並有那都魯薩、那尼薩羅、那次蘭、達卡努瓦及貼布貼爾等支流匯集，潔淨豐沛的水蘊藏豐富的魚、蝦、蟹及綠藻（Kunam），成為卡那卡富族人食物的重要來源，讓卡那卡那富族人能夠安居無虞繁衍後代，於是為感念河神的恩典，發展出此敬天愛地並蘊涵生態保育觀念的獨特祭儀。"],
+			"festival_name_img": ["../festival&language/resources/festival/Kanakanavu/images/Kanakanavu_migon.jpg", 
+				"../festival&language/resources/festival/Kanakanavu/images/Kanakanavu_liver.png"]
+		},
+		"language": {}
 	}
 }

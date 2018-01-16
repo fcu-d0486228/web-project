@@ -1,0 +1,29 @@
+doctype html
+html
+	head
+		title CTGO
+		meta(charset="utf-8")
+		// Bootstrap 
+		meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+		link(rel="stylesheet", href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css")
+		script(src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js")
+		script(src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js")
+		script(src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js")
+		// inner style 
+		link(rel="stylesheet", href="../festival%26language/resources/style/banner.css")
+		link(rel="stylesheet", href="../festival%26language/resources/style/festival_language.css") 
+		link(rel="stylesheet", href="../common/resources/style/header.css")
+	body
+		// header(nav) script 
+		script(src="../common/resources/scripts/header.js")
+		// banner 
+		#banner-loader(style="margin-top: 55px")
+		script(src="../festival%26language/resources/scripts/banner_loader.js")
+		// enter stickers 
+		.enter-sticker
+			.enter-festival(onclick="location.href='../festival%26language/festival.html'")
+				.enter-bg
+					.enter-title 節日
+			.enter-language(onclick="location.href='../festival%26language/language.html'")
+				.enter-bg
+					.enter-title 語言

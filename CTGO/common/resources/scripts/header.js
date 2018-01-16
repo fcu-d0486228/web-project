@@ -19,7 +19,7 @@ header = '<div id="header">\
 						<a class="nav-link" href="../tourists/map.html">遊客意願</a>\
 					</li>\
 					<li class="nav-item">\
-						<a class="nav-link" href="../festival&language/節日與語言學習.html">節日與語言學習</a>\
+						<a class="nav-link" href="../festival%26language/festival_language.html">節日與語言學習</a>\
 					</li>\
 				</ul>\
 				<a class="btn btn-outline-success navbar-btn text-dark ml-md-auto" href="../login/login.html">登入</a>\
