@@ -57,6 +57,7 @@
 }
 
 .list-items-container {
+  margin-bottom: 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +76,8 @@
 }
 
 .list-items-container .list-item {
-  width: 100%;
+  border-radius: 5px;
+  width: 80%;
   background: #36A9CE;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,6 +105,8 @@
   -ms-flex: 1;
   flex: 1;
   font-size: 3vw;
+  text-shadow: black 0.015em 0.015em 0.015em;
+  color: white;
 }
 
 .list-items-container .list-item .intro {
