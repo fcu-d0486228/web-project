@@ -34,27 +34,32 @@
                 top: 0px;
                 display: block;
             } */
-            #btn1{
+            /* #btn1{
                 width: 180px;
                 height: 40px;
                 position: absolute;
                 right: 0px;
                 top: 60px;
                 display: block;
-            }
+            } */
     </style>
 </head>
 <body>
     <script src="../common/resources/scripts/header.js"></script>
 
-    <div class="container-fluid" style="margin-top:80px">
-        <a href="map.html"><div id="btn1" class="col-2.4 btn btn-success title">回上一頁</div></a>
+    <div class="container" style="margin-top:80px">
+        <a href="map.html"><div id="btn1" class="col-2.4 btn btn-success title float-right">回上一頁</div></a>
         <br>
-        <form id="turistForm" action="" align="center" style="margin-top: 50px; font-size:30px;  line-height: 35px;" >
-            <input type="tel" placeholder="手機"><br><br>
-            <input type="email" placeholder="信箱"><br><br>
-            縣市:
-            <select id="selectCountry">
+        <form class="mx-auto form-group mt-5" id="turistForm" action="" style="max-width:700px">
+
+            <label for="email">信箱</label>
+            <input type="email" class="form-control" placeholder="EX:abc@gmail.com" id="email">
+
+            <label for="tel">手機:</label>
+            <input type="tel" class="form-control" placeholder="EX:0909-12345678" id="tel">
+      
+            <label for="sel1">縣市:</label>   
+            <select id="selectCountry" class="form-control" id="sel1">
                 <option value="桃園縣 ">桃園縣 </option>
                 <option value="新竹縣 ">新竹縣 </option>
                 <option value="苗栗縣 ">苗栗縣 </option>
@@ -78,9 +83,8 @@
                 <option value="台南市 ">台南市 </option>
                 <option value="高雄市 ">高雄市 </option>
             </select>
-            <br><br>
-            族群:
-            <select id="selectAborigines">
+            <label for="sel2">族群:</label>
+            <select id="selectAborigines" class="form-control" id="sel2">
                 <option value="阿美族">阿美族</option>
                 <option value="泰雅族">泰雅族</option>
                 <option value="排灣族">排灣族</option>
@@ -98,7 +102,6 @@
                 <option value="拉阿魯哇族">拉阿魯哇族</option>
                 <option value="卡那卡那富族">卡那卡那富族</option>
             </select>
-            <br><br>
             想了解的資訊:<br>
             <input type="checkbox" name="information" value="history">歷史&emsp; 
             <input type="checkbox" name="information" value="food">食物&emsp;
