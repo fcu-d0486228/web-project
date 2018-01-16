@@ -1,0 +1,384 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.banner {
+  height: 200px;
+}
+
+.random-language, .random-festival {
+  height: 100%;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: 'Noto Sans TC', sans-serif;
+  word-break: break-all;
+}
+
+.random-language {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FCC977), to(#FBB13C));
+  background: -webkit-linear-gradient(top, #FCC977 0%, #FBB13C 100%);
+  background: -o-linear-gradient(top, #FCC977 0%, #FBB13C 100%);
+  background: linear-gradient(180deg, #FCC977 0%, #FBB13C 100%);
+}
+
+.random-language .banner-title {
+  height: 100%;
+  -webkit-box-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.random-language .banner-title .font-div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-language .banner-content {
+  height: 100%;
+  -webkit-box-flex: 7;
+  -ms-flex: 7;
+  flex: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-language .banner-content .zu-mark {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-language .banner-content .zu-totem {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 40.1px;
+  height: 40.1px;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: 5px;
+}
+
+.random-language .banner-content .zu-name {
+  font-weight: bold;
+}
+
+.random-language .banner-content .vocabulary {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100%;
+  font-family: 'Permanent Marker';
+  font-size: 5vw;
+  text-shadow: 0.025em 0.025em 0.025em #333;
+}
+
+.random-language .banner-content .translation {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100%;
+}
+
+.random-festival {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF9178), to(#FE6847));
+  background: -webkit-linear-gradient(top, #FF9178 0%, #FE6847 100%);
+  background: -o-linear-gradient(top, #FF9178 0%, #FE6847 100%);
+  background: linear-gradient(180deg, #FF9178 0%, #FE6847 100%);
+}
+
+.random-festival .banner-title {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.random-festival .banner-title .font-div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content {
+  height: 100%;
+  -webkit-box-flex: 9;
+  -ms-flex: 9;
+  flex: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content .festival-content {
+  height: 100%;
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content .festival-content .zu-mark {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content .festival-content .zu-totem {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 40.1px;
+  height: 40.1px;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: 5px;
+}
+
+.random-festival .banner-content .festival-content .zu-name {
+  font-weight: bold;
+}
+
+.random-festival .banner-content .festival-content .festival-name {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100%;
+}
+
+.random-festival .banner-content .festival-content .festival-name .festival-en {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: 'Permanent Marker';
+  font-size: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-shadow: 0.025em 0.025em 0.025em #333;
+}
+
+.random-festival .banner-content .festival-content .festival-name .festival-ch {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content .festival-content .festival-time {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100%;
+}
+
+.random-festival .banner-content .festival-img {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.random-festival .banner-content .festival-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=banner.css.map */

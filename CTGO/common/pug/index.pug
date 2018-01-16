@@ -14,11 +14,16 @@ html
 		script(src="//d3js.org/topojson.v1.min.js")
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js")
 		// inner style
-		link(rel="stylesheet", href="../common/resources/style/index.css") 
+		link(rel="stylesheet", href="../festival%26language/resources/style/banner.css")
 		link(rel="stylesheet", href="../common/resources/style/taiwan_aborigines_map.css")
+		link(rel="stylesheet", href="../common/resources/style/index.css") 
 		link(rel="stylesheet", href="../common/resources/style/header.css")
 	body
 		// header(nav) script 
 		script(src="../common/resources/scripts/header.js")
-		div(id="taiwan-abo-map-loader", style="margin-top:80px")
+		// banner
+		#banner-loader(style="margin-top: 55px")
+		script(src="../festival%26language/resources/scripts/banner_loader.js")
+		// taiwan_abo_map
+		div(id="taiwan-abo-map-loader")
 		script(src="../common/resources/scripts/taiwan_aborigines_map_loader.js")
